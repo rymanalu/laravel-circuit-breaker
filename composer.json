@@ -1,6 +1,7 @@
 {
     "name": "rymanalu/laravel-circuit-breaker",
-    "description": "Circuit breaker pattern implementation in Laravel 5.",
+    "description": "Circuit Breaker pattern implementation in Laravel 5.",
+    "keywords": ["laravel", "circuit breaker"],
     "type": "library",
     "require": {
         "php": ">=5.5.9",

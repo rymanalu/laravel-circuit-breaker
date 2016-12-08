@@ -21,7 +21,7 @@ class CircuitBreakerServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(CircuitBreaker::class, function ($app) {
-            return new CircuitBreaker($app['cache.store']);
+            return new CircuitBreaker($app['cache']->store());
         });
     }
 

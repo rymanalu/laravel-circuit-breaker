@@ -44,12 +44,12 @@ CircuitBreaker::failures($key);
 CircuitBreaker::resetFailures($key);
 
 /**
-  * Increment the counter for a given key for a given decay time.
-  *
-  * @param  string  $key
-  * @param  float|int  $decayMinutes
-  * @return int
-  */
+ * Increment the counter for a given key for a given decay time.
+ *
+ * @param  string  $key
+ * @param  float|int  $decayMinutes
+ * @return int
+ */
 CircuitBreaker::track($key, $decayMinutes = 1);
 
 /**
